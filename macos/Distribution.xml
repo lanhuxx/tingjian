@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<installer-gui-script minSpecVersion="2">
+  <title>听笺</title>
+  <options customize="never" hostArchitectures="arm64"/>
+  <domains enable_localSystem="true" enable_currentUserHome="false" enable_anywhere="false"/>
+  <volume-check><allowed-os-versions><os-version min="26.0"/></allowed-os-versions></volume-check>
+  <choices-outline><line choice="app"/></choices-outline>
+  <choice id="app" visible="false"><pkg-ref id="local.funasr.transcription.pkg"/></choice>
+  <pkg-ref id="local.funasr.transcription.pkg" version="0.8.2">听笺组件.pkg</pkg-ref>
+</installer-gui-script>

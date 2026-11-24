@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Paraformer · 热词增强",
+    "id": "iic/speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch",
+    "category": "中文",
+    "key": "paraformer-zh",
+    "legacy": true,
+    "available": true,
+    "note": "普通话会议、访谈和课程；支持热词及时间戳",
+    "recommendation": "中文首选"
+  },
+  {
+    "title": "Paraformer · 标准版",
+    "id": "iic/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch",
+    "category": "中文",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": true,
+    "note": "普通话为主，支持时间戳"
+  },
+  {
+    "title": "Paraformer · 英文版",
+    "id": "iic/speech_paraformer-large-vad-punc_asr_nat-en-16k-common-vocab10020",
+    "category": "英文",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": true,
+    "note": "英语为主的会议、访谈和课程；分段时刻取决于识别结果",
+    "recommendation": "英文首选"
+  },
+  {
+    "title": "SenseVoiceSmall",
+    "id": "iic/SenseVoiceSmall",
+    "category": "多语言",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": true,
+    "note": "适合粤语、日语、韩语和无法预先确定语言的录音；也支持普通话和英语",
+    "recommendation": "多语言首选"
+  },
+  {
+    "title": "Fun-ASR-Nano",
+    "id": "FunAudioLLM/Fun-ASR-Nano-2512",
+    "category": "多语言",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": false,
+    "note": "中英日及部分中文方言；需要独立推理适配"
+  },
+  {
+    "title": "Fun-ASR-MLT-Nano",
+    "id": "FunAudioLLM/Fun-ASR-MLT-Nano-2512",
+    "category": "多语言",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": false,
+    "note": "31 种语言；需要独立推理适配"
+  },
+  {
+    "title": "Whisper Large v2",
+    "id": "iic/speech_whisper-large_asr_multilingual",
+    "category": "多语言",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": false,
+    "note": "需要 Whisper 推理环境"
+  },
+  {
+    "title": "Whisper Large v3",
+    "id": "iic/Whisper-large-v3",
+    "category": "多语言",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": false,
+    "note": "需要 Whisper 推理环境"
+  },
+  {
+    "title": "Whisper Large v3 Turbo",
+    "id": "iic/Whisper-large-v3-turbo",
+    "category": "多语言",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": false,
+    "note": "需要 Whisper 推理环境"
+  },
+  {
+    "title": "Paraformer · 中文流式",
+    "id": "iic/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-online",
+    "category": "其他任务",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": false,
+    "note": "使用实时流式接口"
+  },
+  {
+    "title": "CT-Punc · 中文版",
+    "id": "iic/punc_ct-transformer_zh-cn-common-vocab272727-pytorch",
+    "category": "其他任务",
+    "key": "ct-punc",
+    "legacy": false,
+    "available": false,
+    "note": "中文标点专用模型"
+  },
+  {
+    "title": "FA-ZH · 时间戳预测",
+    "id": "iic/speech_timestamp_prediction-v1-16k-offline",
+    "category": "其他任务",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": false,
+    "note": "用于已有文本与音频对齐"
+  },
+  {
+    "title": "emotion2vec+ · large",
+    "id": "iic/emotion2vec_plus_large",
+    "category": "其他任务",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": false,
+    "note": "用于情绪识别"
+  },
+  {
+    "title": "emotion2vec+ · base",
+    "id": "iic/emotion2vec_plus_base",
+    "category": "其他任务",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": false,
+    "note": "用于情绪识别"
+  },
+  {
+    "title": "emotion2vec+ · seed",
+    "id": "iic/emotion2vec_plus_seed",
+    "category": "其他任务",
+    "key": "paraformer-zh",
+    "legacy": false,
+    "available": false,
+    "note": "用于情绪识别"
+  },
+  {
+    "title": "FSMN-VAD · 语音检测",
+    "id": "iic/speech_fsmn_vad_zh-cn-16k-common-pytorch",
+    "category": "配套模型",
+    "key": "fsmn-vad",
+    "legacy": true,
+    "available": true,
+    "note": ""
+  },
+  {
+    "title": "CT-Punc · 中英文标点",
+    "id": "iic/punc_ct-transformer_cn-en-common-vocab471067-large",
+    "category": "配套模型",
+    "key": "ct-punc",
+    "legacy": true,
+    "available": true,
+    "note": ""
+  },
+  {
+    "title": "CAM++ · 说话人区分",
+    "id": "iic/speech_campplus_sv_zh-cn_16k-common",
+    "category": "配套模型",
+    "key": "cam++",
+    "legacy": true,
+    "available": true,
+    "note": ""
+  }
+]
